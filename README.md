@@ -101,9 +101,31 @@ Importar do arquivo "paciente.py" a classe "Paciente"
 
 # Exemplo de execução com saída no Terminal:
 
-# Paciente Particular
+# Paciente Particular (exemplo de saída no Terminal)
 
+FICHA DETALHADA DO PACIENTE
+Nome: Bruna Marquezine
+Nascimento: 04/08/1995
+CPF: 123.456.789-00
+Telefone: (21) 98643-4321
+Tipo Sanguíneo: A+
+Nº Prontuário: 001
+-----------------------------------
+Forma de Pagamento: Cartão de Crédito
+Desconto Fidelidade: 0.1%
 
+# Paciente com Convênio (exemplo de saída no Terminal)
+
+FICHA DETALHADA DO PACIENTE
+Nome: Neymar Santos Silva
+Nascimento: 05/02/1992
+CPF: 987.654.321-00
+Telefone: (21) 91234-5678
+Tipo Sanguíneo: O-
+Nº Prontuário: 002
+-----------------------------------
+Convênio: Unimed
+Nº Carteirinha: 123456789
 
         
 
