@@ -37,10 +37,10 @@ def main():
 
     # Exibindo informações detalhadas dos pacientes
     print("\n--- [ Informações do Paciente Particular ] ---")
-    print(paciente1.exibir_informacoes(True)) 
+    print(paciente1.exibir_informacoes(detalhado=True)) 
     print('\n------------------------------------------------')
     print("\n--- [ Informações do Paciente com Convênio ] ---")
-    print(paciente2.exibir_informacoes(True))
+    print(paciente2.exibir_informacoes(detalhado=True))
 
 if __name__=="__main__":
     main()

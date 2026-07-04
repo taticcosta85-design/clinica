@@ -49,16 +49,21 @@ Herda as características da classe mãe "Paciente" c/ seus métodos e adiciona 
 1.2 - Utilizar o Método Constructor para montar a função: 
 Recebe as características (atributos) e deixa salvo nas caixinhas. 
 
+
 1.3 - Método (1) para Mostrar detalhes na tela
 Exibe os dados do paciente na tela. 
 
+Uso do "if" 
+Se for True: mostrar a Ficha Completa
+Se for False: mostrar os dados de forma resumida
+
 1.4 - Método (2) para Registrar atendimento
-Exibe as informações de que o paciente passou por um atendimento com um
+Exibe as informações de que o paciente passou por um atendimento com um: 
 - tipo
-- custo
+- custo (valor em reais)
 
 
-# Passo 2 - Trabalhando na SubClasse "Paciente Particular" 
+# Passo 2 - Trabalhando na SubClasse "Paciente Particular":  
 
 2.1 - Importar os dados da classe "Paciente" 
 Importar do arquivo "paciente.py" a classe "Paciente" 
@@ -87,7 +92,7 @@ Importar do arquivo "paciente.py" a classe "Paciente"
 3.5- Método (3) para exibir informações na tela 
 
 
-# Passo 4- Finalizar escrevendo o arquivo main que deve conter
+# Passo 4- Finalizar escrevendo o arquivo "main" que deve conter: 
 
 - os arquivos de onde foram importados os dados
 - exemplos dos pacientes 
@@ -98,14 +103,9 @@ Importar do arquivo "paciente.py" a classe "Paciente"
 
 # Paciente Particular
 
-nome="Bruna Marquezine",
-        data_nascimento="04/08/1995",
-        cpf="123.456.789-00",
-        telefone="(21) 98643-4321",
-        tipo_sanguineo="A+",
-        numero_prontuario="001",
-        forma_pagamento="Cartão de Crédito",
-        desconto_fidelidade=0.10
+
+
+        
 
 
 

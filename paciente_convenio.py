@@ -4,9 +4,9 @@
 # + Nome do Convênio
 # + Número da Carteirinha
 
-# Método 1: Adicionar taxa caso atendimento seja de urgencia (se houver)
-# Metodo 2: Aplicar desconto sobre o valor (se houver) 
-# Método 3: Mostrar os dados na tela 
+# Método 1: Preencher a ficha do paciente convênio (método constructor) + atributos adicionais:
+# Método 2: Registrar autorização do procedimento pelo convênio (se houver) e calcular quanto o paciente vai pagar pelo atendimento:
+# Método 3: Mostrar os dados na tela
 
 from paciente import Paciente
 

@@ -1,4 +1,4 @@
-# Classe Mãe
+# Classe Mãe: Paciente
 
 # nome
 # data_nascimento
@@ -7,13 +7,13 @@
 # tipo_sanguineo
 # numero_prontuario
 
-#Passo 1:  Preencher a ficha do paciente (método constructor)
+#Passo 1:  Preencher a ficha do paciente (método constructor): 
 
 class Paciente:
     def __init__(self, nome, data_nascimento, cpf, telefone, tipo_sanguineo, numero_prontuario): 
         self.nome = nome    
         self.data_nascimento = data_nascimento
-        self._cpf = cpf #Atributo privado (recebe_ antes do atributo)
+        self._cpf = cpf     #Atributo privado (recebe "_" antes do atributo)
         self.telefone = telefone
         self.tipo_sanguineo = tipo_sanguineo
         self.numero_prontuario = numero_prontuario
@@ -22,7 +22,7 @@ class Paciente:
 
     def exibir_informacoes(self, detalhado):
         if detalhado:
-# Se for True, mostra TUDO (os 6 dados)
+# Se for True, mostra a ficha completa (com os 6 dados)
             print("--- FICHA DETALHADA DO PACIENTE ---")
             print(f"Nome: {self.nome}")
             print(f"Nascimento: {self.data_nascimento}")
@@ -32,10 +32,10 @@ class Paciente:
             print(f"Nº Prontuário: {self.numero_prontuario}")
             print("-----------------------------------")
         else:
-# Se for False, exibe apenas Nome, Número Prontuário e Tipo Sanguíneo
+# Se for False, exibe apenas Nome, Número Prontuário e Tipo Sanguíneo (Mostra a ficha de forma resumida) 
             print(f"📋 Paciente: {self.nome} | Prontuário: {self.numero_prontuario} | Sangue: {self.tipo_sanguineo}")
 
-# Passo 3: Registrar atendimento do paciente
+# Passo 3: Registrar atendimento do paciente: 
 
     def registrar_atendimento(self, tipo, custo):
         print(f"🏥 Atendimento [{tipo}] registrado para {self.nome}. Custo: R${custo}")            

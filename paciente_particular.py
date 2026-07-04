@@ -1,11 +1,12 @@
 # Subclasse Paciente Particular
 
-# Todos os tributos do paciente   
+# Todos os atributos da classe Paciente   
 # + Forma de Pagamento
 # + Desconto Fidelidade
 
-# Método 1: Adicionar taxa caso atendimento seja de urgencia
-# Metodo 2: Aplicar desconto sobre o valor  
+# Método 1: Preencher a ficha do paciente particular (método constructor) + atributos adicionais:
+# Método 2: Calculo de valores sobre o atendimento do paciente particular para 3 situações: a) Atendimento normal, b) Atendimento com urgência, c) Atendimento com desconto de fidelidade  
+# Método 3: Exibir informações do paciente particular
 
 from paciente import Paciente
 
